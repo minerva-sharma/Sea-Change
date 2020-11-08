@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab&family=Rock+Salt&display=swap');
+
+
+body {
+  font-family:'Roboto Slab';
+  margin: 2em;
+  background-color: #BED0E4;
+  overflow-x: hidden;
+}
+
+.headerTitle{
+  font-family: "Karla", sans-serif;
+  color: #222;
+}
+
+h1 {
+  font-style: italic;
+  color: black;
+}
+
+.headerTitle{
+  color: #30475e;
+}
+
+.definition{
+  font-family: 'Roboto Slab';
+  color: white;
+  font-size: 40px;
+  margin-left: 100px;
+}
+
+.mission{
+  font-family: 'Roboto Slab';
+  color: white;
+  font-size: 40px;
+  background-color: #c1a57b;
+}
+
+.title {
+  font-family: 'Rock Salt';
+  color: white;
+  font-size: 100px;
+  /* margin-left: 337.5px; */
+  text-align: center;
+}
+
+.hexagon {
+  /* position: relative; */
+  width: 200px; 
+  height: 115.47px;
+  margin: 57.74px 0;
+   /* #64C7CC; */
+  background-size: auto 230.9401px;
+  background-position: center;
+  transform: rotate(90deg);
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 141.42px;
+  height: 141.42px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 29.29px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 200.0000px;
+  height: 115.47005383792516px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -70.7107px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -70.7107px;
+}
+
+.first-button{
+  padding: 10px;
+  color: white;
+  background: transparent;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 23px;
+  font-family: 'Roboto Slab';
+}
+
+.first-button:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  
+  transition: .2s;
+  transform: scale(1.5);
+}
+
+.second-button{
+  padding: 10px;
+  color: white;
+  background: transparent;
+   border-style: none;
+  border-radius: 5px;
+   font-size: 25px;
+   font-family: 'Roboto Slab';
+}
+
+.second-button:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  
+  transition: .2s;
+  transform: scale(1.5);
+}
+
+.third-button{
+  padding: 10px;
+  color: white;
+  background: transparent;
+   border-style: none;
+  border-radius: 5px;
+   font-size: 23px;
+   font-family: 'Roboto Slab';
+}
+
+
+
+.third-button:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  
+  transition: .2s;
+  transform: scale(1.5);
+}
+
+.fourth-button{
+  padding: 10px;
+  color: white;
+  background: transparent;
+   border-style: none;
+  border-radius: 5px;
+   font-size: 23px;
+   font-family: 'Roboto Slab';
+}
+
+
+
+.fourth-button:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  
+  transition: .2s;
+  transform: scale(1.5);
+}
+
+.fifth-button{
+  padding: 10px;
+  color: white;
+  background: transparent;
+   border-style: none;
+  border-radius: 5px;
+   font-size: 23px;
+   font-family: 'Roboto Slab';
+}
+
+
+
+.fifth-button:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  
+  transition: .2s;
+  transform: scale(1.5);
+}
+
+.sixth-button{
+  padding: 10px;
+  color: white;
+  background: transparent;
+   border-style: none;
+  border-radius: 5px;
+   font-size: 20px;
+   font-family: 'Roboto Slab';
+}
+
+
+
+.sixth-button:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  
+  transition: .2s;
+  transform: scale(1.5);
+}
+
+.seventh-button{
+  padding: 10px;
+  color: white;
+  background: transparent;
+   border-style: none;
+  border-radius: 5px;
+   font-size: 25px;
+   font-family: 'Roboto Slab';
+}
+
+
+
+.seventh-button:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  
+  transition: .2s;
+  transform: scale(1.5);
+}
+
+
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 200.0000px;
+  height: 115.4701px;
+  z-index: 2;
+  background: inherit;
+}
+
+#hex1 {
+  /* //background-image: url(lgbtq.jpg); */
+  background-color: #212832;
+  top: 1050px;
+  bottom: 100px;
+  left: 575px;
+  right: 100px;
+  position: absolute;
+  
+}
+
+#hex2 {
+  /* //background-image: url(animalrights.png); */
+  top: 1260px;
+  bottom: 100px;
+  left: 575px;
+  right: 100px;
+  background-color:  rgb(226, 219, 219);
+  transition: unset;
+  transform: unset;
+  transform: rotate(90deg);
+  position: absolute;
+}
+
+#hex3 {
+  top: 1470px;
+  bottom: 100px;
+  left: 575px;
+  right: 100px;
+ background-color:#055E62;
+ position: absolute;
+  /* background-image: url(contactus.jpg); */
+}
+
+#hex4 {
+  top: 1155px;
+  bottom: 543px;
+  left: 395px;
+  right: 100px;
+   background-color: #8D8572;
+   position: absolute;
+  /* //background-image: url(blm.jpg); */
+ 
+}
+
+#hex5 {
+  top: 1365px;
+  bottom: 580px;
+  left: 395px;
+  right: 100px;
+   background-color: #31475E;
+   position: absolute;
+  /* //background-image: url(environmentak.jpg); */
+}
+
+#hex6 {
+  top: 1155px;
+  bottom: 1040px;
+  left: 755px;
+  right: 100px;
+  background-color: #879D31;
+  position: absolute;
+  /* //background-image: url(vote.png); */
+}
+
+#hex7 {
+  top: 1365px;
+  bottom: 1080px;
+  left: 755px;
+  right: 100px;
+  background-color: #c1a57b;
+  position: absolute;
+  /* //background-image: url(feedback.png); */
+}
+
+
+/* .hexagon {
+  position: relative;
+  overflow: hidden;
+  transform: rotate(30deg);
+}
+
+.hexagon::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url(background.png) 0 0 repeat;
+  transform: rotate(-30deg);
+} */
+
+
+.hexagon:hover{
+  transition: .2s;
+  transform: scale(1.5);
+}
+
+button{
+  background-color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  line-height: 1.7;
+}
+
+.container {
+  padding: 2.5rem 3rem;
+}
+
+nav {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  background-color: white;
+}
+
+nav h1 {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+nav button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  opacity: 0.8;
+  margin-left: auto;
+  outline: none;
+}
+
+nav button,
+nav ul {
+  margin-left: auto;
+}
+
+nav button:hover {
+  opacity: 1;
+}
+
+nav button span {
+  height: 2px;
+  background-color: rgb(68, 68, 68);
+  width: 20px;
+  display: block;
+  margin-top: 4px;
+}
+
+nav button span:first-child {
+  width: 15px;
+}
+
+nav button span:last-child {
+  width: 15px;
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-size: 12px;
+  color: #222;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.responsive-nav {
+  position: absolute;
+  top: -70%;
+  background-color: white;
+  width: 95.75%;
+  box-shadow: 0px 2px 5px rgba(34, 34, 34, 0.075);
+  transition: all 500ms ease-out;
+  z-index: 1;
+}
+
+.responsive-nav li a {
+display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 3rem 0;
+  color: #222;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.responsive-nav-active {
+  top: 5% !important;
+}
+
+@media (min-width: 1024px) {
+  nav button,
+  .responsive-nav {
+    display: none;
+  }
+  nav ul {
+    display: block;
+  }
+  .container {
+    /* //padding: 2.5rem 10rem; */
+  }
+  html {
+    font-size: 72.5%;
+  }
+}
+
+ul.ba {
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 900px){
+  text-align: center;
+}
+
+ @media only screen and (max-width: 600px){
+/* .definition{
+  font-size: 20px;
+} */
+html,body{
+    width: 100%;
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+}
+/*.mission{
+  font-size: 20px;
+}
+} */
